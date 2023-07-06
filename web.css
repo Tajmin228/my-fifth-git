@@ -55,6 +55,10 @@
     height: 100vh;
 
 }
+.color{
+    color: goldenrod;
+}
+
 .btn2{
     font-size: 20px;
     padding: 10px;
@@ -64,23 +68,26 @@
     display: flex;
     justify-content: space-around;
 }
+
 .bx{
     padding: 20px;
     margin: 30px;
     justify-content: space-around;
     width: 300px;
     border-radius: 20px;
+    background-color:  rgb(193, 95, 34);
+    box-shadow: 10px 15px 20px goldenrod;
 }
-.box1{
+.box1:hover{
     background-color: rgb(33, 75, 245);
     box-shadow: 10px 15px 20px rgb(108, 135, 246);
 
 }
-.box2{
+.box2:hover{
     background-color: rgb(24, 157, 174);
     box-shadow: 10px 15px 20px rgb(80, 211, 228);
 }
-.box3{
+.box3:hover{
     background-color: rgb(175, 30, 144);
     box-shadow: 10px 15px 20px rgb(245, 121, 218);
 }
