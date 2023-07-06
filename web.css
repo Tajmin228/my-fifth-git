@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    color: white;
+    padding-top: 15px;
+    
+}
+.menu{
+    margin-right: 100px;
+    font-size: 28px;
+    cursor: pointer;
+}
+.menu:hover{
+    color: black;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(193, 95, 34);
+}
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: goldenrod;
+    color: white;
+}
+.main{
+    font-size: 30px;    
+}
+.pra{
+    margin-top: 10px;
+}
+.btn{
+    font-size: 25px;
+    margin-top: 15px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+.main2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+
+}
+.btn2{
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.bx{
+    padding: 20px;
+    margin: 30px;
+    justify-content: space-around;
+    width: 300px;
+    border-radius: 20px;
+}
+.box1{
+    background-color: rgb(33, 75, 245);
+    box-shadow: 10px 15px 20px rgb(108, 135, 246);
+
+}
+.box2{
+    background-color: rgb(24, 157, 174);
+    box-shadow: 10px 15px 20px rgb(80, 211, 228);
+}
+.box3{
+    background-color: rgb(175, 30, 144);
+    box-shadow: 10px 15px 20px rgb(245, 121, 218);
+}
+.pro{
+    margin-top: 20px;
+}
+.icon{
+    padding-left: 40px;
+}
+.head{
+    text-align: center;
+}
