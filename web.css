@@ -56,7 +56,7 @@
 
 }
 .color{
-    color: goldenrod;
+    color: rgb(193, 95, 34);
 }
 
 .btn2{
@@ -99,4 +99,20 @@
 }
 .head{
     text-align: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(193, 95, 34);
+    color: white;
+}
+
+.foot ul li{
+    list-style: none;
+    justify-content: space-around;
+    font-size: 25px;
+    padding: 10px;
+}
+.foot ul li:hover{
+    color: black;
 }
